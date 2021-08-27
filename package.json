@@ -1,0 +1,27 @@
+{
+  "name": "tre-cli-init",
+  "version": "1.0.0",
+  "description": "cli tool that creates a new ssb network and punlishes a content tree to it",
+  "main": "index.js",
+  "bin": {
+    "tre-cli-init": "bin.js"
+  },
+  "scripts": {
+    "make-readme": "node build/make-readme.js > README.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tre",
+    "cli"
+  ],
+  "author": "Jan Bölsche <jan@lagomorph.de> (https://regular.codes/)",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.3.2",
+    "lodash.merge": "^4.6.2",
+    "mkdirp": "^1.0.4",
+    "pull-stream": "^3.6.14",
+    "ssb-keys": "^8.2.0",
+    "ssb-zero-conf-client": "^1.0.1"
+  }
+}
